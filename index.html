@@ -26,7 +26,42 @@
         <p>興趣：寫程式，救護員，看電影</p>
     </section>
 
-    
+    <script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mdkaqqyp",
+    title: "對於我的網站看法",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "you@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "內容",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "	#004B97"
+      },
+      button: {
+        backgroundColor: "#EA0000"
+      }
+    },
+    initiallyVisible: true
+  });
+</script>
+
 
     <section id="about">
         <h2>經歷</h2>
